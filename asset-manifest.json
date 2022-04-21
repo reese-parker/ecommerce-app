@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ecommerce-app/static/css/main.c964cead.css",
-    "main.js": "/ecommerce-app/static/js/main.d3019943.js",
+    "main.js": "/ecommerce-app/static/js/main.acdcca07.js",
     "static/media/primegreenLogo.jpeg": "/ecommerce-app/static/media/primegreenLogo.3512a248933c851e7fa1.jpeg",
     "static/media/leafsCrest.jpeg": "/ecommerce-app/static/media/leafsCrest.bd5080414b7270d975e2.jpeg",
     "index.html": "/ecommerce-app/index.html",
     "main.c964cead.css.map": "/ecommerce-app/static/css/main.c964cead.css.map",
-    "main.d3019943.js.map": "/ecommerce-app/static/js/main.d3019943.js.map"
+    "main.acdcca07.js.map": "/ecommerce-app/static/js/main.acdcca07.js.map"
   },
   "entrypoints": [
     "static/css/main.c964cead.css",
-    "static/js/main.d3019943.js"
+    "static/js/main.acdcca07.js"
   ]
 }
