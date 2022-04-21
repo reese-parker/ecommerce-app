@@ -1,0 +1,56 @@
+:root {
+  --drawerWidth: 0;
+}
+
+.AppBar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  color: #212a2f
+}
+
+.Toolbar {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.title {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 800;
+  
+}
+
+.links {
+  display: none;
+}
+
+.link {
+
+  font-weight: 700;
+}
+
+@media (min-width: 600px) {
+  .title {
+    font-size: 1.3rem;
+    flex-grow: 1;
+  }
+  .Toolbar {
+    justify-content: space-between;
+  }
+
+  .MenuIconButton {
+    display: none;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: space-around;
+  }
+}
+
+@media (min-width: 900px) {
+  .title {
+    font-size: 2rem;
+  }
+}

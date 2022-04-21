@@ -1,0 +1,12 @@
+.checkoutActionButton {
+    color: white;
+    background-color: #212a2f;
+    font-weight: 800;
+    border: 2px solid #212a2f;
+  }
+  
+  .checkoutActionButton:hover {
+    color: #212a2f;
+    background-color: white;
+    border: 2px solid #212a2f;
+  }

@@ -1,0 +1,68 @@
+.container {
+    background-color: #212a2f;
+    color: white;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    bottom: 0;
+    max-width: 100%;
+}
+
+.phoneContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.phoneNumber {
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: .8rem;
+}
+.emailContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.emailAddress {
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+.locationContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.location {
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.socialsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.socialsTitle {
+    font-weight: 700;
+    font-size: .8rem
+}
+
+.socialsIconsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%
+}
+
+.footnote {
+    display: flex;
+    justify-content: center;
+    font-size: 0.6rem;
+    font-weight: 700;
+}
