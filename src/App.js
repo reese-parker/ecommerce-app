@@ -40,14 +40,12 @@ function App() {
         <main>
           <Routes>
             <Route
-              exact
               path="/"
               element={
                 <Home products={products} handleAddToCart={handleAddToCart} />
               }
             />
             <Route
-              exact
               path="/store"
               element={
                 <Products
@@ -57,7 +55,6 @@ function App() {
               }
             />
             <Route
-              exact
               path="/cart"
               element={
                 <Cart
@@ -72,6 +69,13 @@ function App() {
               exact
               path="/checkout"
               element={<Checkout cart={cart} refreshCart={refreshCart} />}
+            />
+
+            <Route
+              path="*"
+              element={
+                <Home products={products} handleAddToCart={handleAddToCart} />
+              }
             />
           </Routes>
         </main>
